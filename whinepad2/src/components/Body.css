@@ -1,0 +1,19 @@
+.Body {
+  background: beige;
+  background-size: cover;
+  padding: 40px;
+  border: 1px solid;
+}
+
+.container {
+  display: table;
+}
+
+.horizontal {
+  display: table-row;
+}
+
+.Excel {
+  display: table-cell;
+  padding: 10px;
+}

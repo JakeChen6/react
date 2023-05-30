@@ -1,0 +1,48 @@
+.Excel table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid lightseagreen;
+}
+  
+.Excel td {
+  background-color: #ffffff;
+  font-size: small;
+  padding: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Excel th {
+  color: #000;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.Excel .ExcelNotSortable {
+  cursor: default;
+}
+
+.Excel .ExcelEditable {
+  cursor: cell;
+}
+
+.Excel .ExcelEditable:hover {
+  background: #FBFBFB;
+}
+
+.Excel .ExcelDataCenter {
+  text-align: center;
+}
+
+.Excel .ExcelDataLeft {
+  padding: 0 10px;
+  text-align: left;
+}
+
+.Excel .ExcelDataRight {
+  text-align: right;
+}
